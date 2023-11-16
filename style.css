@@ -8,7 +8,7 @@ html {
     border-block-color: #363031;
   }
   body{
-    background-image: url("img.jpg");
+    background-image: url("con.jpg");
     background-size: auto;
     -webkit-animation: cover;
     animation: slidein 100s;
