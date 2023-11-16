@@ -7,6 +7,28 @@ html {
     border-block-style: solid;
     border-block-color: #363031;
   }
+  body{
+    background-image: url("img.jpg");
+    background-size: auto;
+    -webkit-animation: cover;
+    animation: slidein 100s;
+    -webkit-animation-fill-mode:forwards ;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate ;
+  }
+  @-webkit-keyframes slidein {
+    from {background-position: top; background-size:3000px; }
+    to {background-position: -100px 0px;background-size:2750px;}
+    }
+    
+    @keyframes slidein {
+    from {background-position: top;background-size:3000px; }
+    to {background-position: -100px 0px;background-size:2750px;}
+    
+    }
 
   .container{
     width: 30%;
